@@ -42,5 +42,6 @@ Based on a randomly generated number value, it is decided whether crossover and 
 The Probability Of Crossover and Probability Of Mutation are kept as such to explore more in the initial iterations of creating new generations to increase diversity 
 whereas do more of exploitation in the generations to decrease diversity and converge to the optimal solution found.
 
-  
+### Metrics Plotting
+After iterating for max generations, the evalutation metrics(Loss, Accuracy and Fitness) are plotted accross generations.
 
