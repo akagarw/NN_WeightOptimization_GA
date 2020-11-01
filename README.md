@@ -18,15 +18,16 @@
 - Each Chromosome defined as = ( WtParam1, WtParam2,... , WtParam35 )
 - Weight Param Range = \[ -2.0, 2.0 \]
 - Probability Of Crossover = 0.8
-- Probability Of Mutation = 0.8
+- Probability Of Mutation = 0.1
 - Objective Function = NN Model Evaluation Loss and Accuracy
+- Elitism = 10% of Population
 - Selection Operator = Roulette Wheel Selection
 - Crossover Operator = One Point Crossover
 - Mutation Operator = One Point Mutation
 
 ## Algorithm Workflow
 ### Initial Population Generation:
-Popuplation of Chromosome Solution. Each Chromosome is generated with a set of genes, whose values are randomly generated within the Weight Param Range. Exhibiting Value Encoding in Genotype Representation.
+A Set of Chromosome Solution is generated. Each Chromosome is generated with a set of genes, whose values are randomly generated within the Weight Param Range. Exhibiting Value Encoding in Genotype Representation.
 ### Creating Next Generation:
 #### Fitness Calculation : 
 First, Each chromosome is conidered in its phenotype representation to be evaluated by the objective function to calculate its the NN Model Loss 
